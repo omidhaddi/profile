@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+
+h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2 {
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.cantainer {
+    background-color: white;
+    width: 1350px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px;
+}
+
+.card {
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 12px 10px;
+    box-shadow: 10px 10px rgb(169, 166, 172);
+}
+
+.bg-lightyellow {
+    background-color: rgb(222, 206, 171);
+}
+
+.bg-yellow {
+    background-color: rgb(214, 202, 71);
+}
+
+.bg-lightblue {
+    background-color: rgb(146, 220, 210);
+}
+
+.bg-lightgreen {
+    background-color: rgb(175, 233, 201);
+}
+
+.bg-cream {
+    background-color: rgb(220, 207, 159);
+}
+
+li {
+    font-size: 15px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.35em 0.35em;
+    background-color: blue;
+    border-radius: 8px;
+    color: aliceblue;
+    letter-spacing: 0.1em;
+    transition: 1s ease;
+}
+
+.button:hover {
+    color: rgb(234, 19, 19);
+    background-color: black;
+    transition: 1s ease;
+}
+
+ul {
+    padding: 0;
+}
+
+ul>li {
+    display: inline;
+    padding: 15px;
+
+}
+
+ul>li>p {
+    display: inline;
+    padding: 15px;
+
+}
+
+i {
+    font-size: 40px;
+}
+
+.space {
+    margin-right: 10px;
+}
